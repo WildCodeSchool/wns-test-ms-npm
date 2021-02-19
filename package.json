@@ -1,5 +1,5 @@
 {
-  "name": "wns-test-ms",
+  "name": "@wns-test/wns-test-ms",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
