@@ -1,13 +1,13 @@
 type Wilder = {
     name: string,
     city: string,
+    email: string,
 }
 
 const janeWilder:Wilder = {
     name: "Jane Doe",
-    city: "Los Angeles"
+    city: "Los Angeles",
+    email: "jane.doe@wildcodeschool.com"
 }
-
-console.log(janeWilder)
 
 export default janeWilder;
