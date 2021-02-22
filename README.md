@@ -84,3 +84,18 @@ npm run build
 npm publish
 ```
 
+## Publish automatically with a Github action
+
+### Connect to a remote github repo (if not done yet)
+
+```shell
+git remote add origin git@github.com:**github-account**/**project-name**.git
+git branch -M main
+git push -u origin main
+```
+
+### npm publish token
+
+- create and copy a `npm` publish access token
+- create a repository secret NPM_TOKEN on your Github repository
+
