@@ -15,7 +15,7 @@ npm init -y
 
 ```shell
 npm login
-npm publish --access public
+npm publish
 ```
 
 - check your profile on https://www.npmjs.com/
@@ -99,3 +99,7 @@ git push -u origin main
 - create and copy a `npm` publish access token
 - create a repository secret NPM_TOKEN on your Github repository
 
+### Create a publish action
+
+- copy `.github/workflows/publish.yml` in you repository
+- before pushing to `main` think of update the package version
