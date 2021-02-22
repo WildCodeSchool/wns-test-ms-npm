@@ -1,8 +1,8 @@
 # Publish a npm package
 
-## Steps
+## Initialization and manual publish
 
-### Initialize and publish
+### Initialize and first publish
 
 - initialize a new npm project
 ```shell
@@ -70,4 +70,17 @@ npm install typescript del-cli --save-dev
   ...
 }
 ``` 
+
+### Update and publish new package version (manually)
+
+- commit your changes
+- update your version number manually or run command:
+```shell
+npm version patch
+```
+- build and publish
+```shell
+npm run build
+npm publish
+```
 
